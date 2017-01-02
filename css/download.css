@@ -1,0 +1,83 @@
+body{min-height:700px;}
+.fl{float:left;}
+.td-width{width:549px;}
+.w{margin:0 auto;width:980px;}
+*{margin:0;padding:0;list-style:none;}
+/**---------------------**/
+
+.banner_top{height:210px; background:url(../img/banner_top.jpg) no-repeat top center;margin:0 auto; overflow:hidden;}
+.banner_h2{text-shadow: 0px 0px 5px #f28e98;color:#8ba4c3;}
+
+
+.banner_top ul{font: 14px "宋体", Arial, Helvetica, sans-serif;line-height: 26px;margin:60px 0 0 -50px;
+    color: #756F71;}
+.banner_top li{text-shadow: 1px 1px 1px rgba(255, 255, 255, 1)}
+.banner_top ul .l1{
+  transform:translate(100px);opacity: 0;
+    animation:animations 2s ease-out forwards;}
+@-webkit-keyframes animations{
+    0%{-webkit-transform:translate(0);opacity:0;}
+   
+    70%{-webkit-transform:translate(70px);opacity:0.8;}
+    100%{-webkit-transform:translate(100px);opacity:1;}
+}
+ @-moz-keyframes animations{
+    0%{-moz-transform:translate(0);opacity:0;}
+    70%{-moz-transform:translate(70px);opacity:0.8;}
+    100%{-moz-transform:translate(100px);opacity:1;}
+}
+@keyframes animations{
+    0%{transform:translate(0);opacity:0;}
+    70%{transform:translate(70px);opacity:0.8;}
+    100%{transform:translate(100px);opacity:1;}
+}
+.banner_top ul .l2{
+  transform:translate(100px);opacity: 0;
+    animation:animations2 2s ease-out 2s forwards;}
+@-webkit-keyframes animations2{
+    0%{-webkit-transform:translate(0);opacity:0;}
+   
+    70%{-webkit-transform:translate(70px);opacity:0.8;}
+    100%{-webkit-transform:translate(100px);opacity:1;}
+}
+ @-moz-keyframes animations2{
+    0%{-moz-transform:translate(0);opacity:0;}
+    70%{-moz-transform:translate(70px);opacity:0.8;}
+    100%{-moz-transform:translate(100px);opacity:1;}
+}
+@keyframes animations2{
+    0%{transform:translate(0);opacity:0;}
+    70%{transform:translate(70px);opacity:0.8;}
+    100%{transform:translate(100px);opacity:1;}
+}
+
+.banner_top ul .l3{
+  transform:translate(100px);opacity: 0;
+    animation:animations3 2s ease-out 4s forwards;}
+@-webkit-keyframes animations3{
+    0%{-webkit-transform:translate(100px);opacity:0;}
+   
+    70%{-webkit-transform:translate(100px);opacity:0.8;}
+    100%{-webkit-transform:translate(100px);opacity:1;}
+}
+ @-moz-keyframes animations3{
+    0%{-moz-transform:translate(100px);opacity:0;}
+    70%{-moz-transform:translate(100px);opacity:0.8;}
+    100%{-moz-transform:translate(100px);opacity:1;}
+}
+@keyframes animations3{
+    0%{transform:translate(100px);opacity:0;}
+    70%{transform:translate(100px);opacity:0.8;}
+    100%{transform:translate(100px);opacity:1;}
+}
+
+
+
+.banner_top a{float:right;margin:40px 110px;width:130px;height:64px;border-radius:15px;overflow: hidden;border:#ccc 4px solid;font-size:28px;line-height:60px;text-align:center;text-decoration: none;}
+/**---------------------**/
+.nav_top{padding-top:60px; }
+.box{margin:0 auto;width:980px;position:relative;}
+.nav{width:76px;}
+.table{width:816px;}
+.tabbale{}
+.tab-content{position:absolute;left:150px;top:50px;}
